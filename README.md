@@ -1,29 +1,14 @@
 # Process Flows
 
-Source of truth for how things work. Markdown files in, multiple outputs out.
-```mermaid
-flowchart TD
-    A[Start Here] --> B[Find the process you need]
-    B --> C{Does a markdown file exist?}
-    C -->|Yes| D[Open the .md file]
-    C -->|No| E[Request it or create it]
-    D --> F{What do you need?}
-    F -->|Quick reference| G[Read the markdown directly]
-    F -->|Visual diagram| H[View rendered Mermaid]
-    F -->|Presentation| I[Export to Figma]
-    F -->|Ask a question| J[Query the RAG system]
-```
+Source of truth for how things work. Each flow lives in `/Flows` as a markdown file with an embedded Mermaid diagram.
 
-## Quick start
+## Flows
 
-1. Go to `/flows/`
-2. Find your process
-3. Read the markdown, or paste the Mermaid block into [mermaid.live](https://mermaid.live) to see the diagram
+| Flow | Description | Figma |
+|------|-------------|-------|
+| [Insurance Verification](Flows/insurance-verification.md) | Verifies patient insurance coverage via API, with manual fallback | — |
+| [Patient Equipment Order](Flows/patient-equipment-order.md) | End-to-end from inquiry through fulfillment | — |
 
-## Adding or updating a flow
+## Adding a flow
 
-Edit the markdown in `/flows/`. That's it. Everything else derives from there.
-
-## Questions?
-
-Ask Jack, Alex or check the RAG system.
+Create a new `.md` file in `/Flows` with a title, one-line summary, and mermaid diagram. Then add a row to the table above.
