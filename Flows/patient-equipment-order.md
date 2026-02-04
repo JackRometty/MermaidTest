@@ -1,3 +1,9 @@
+---
+title: Patient Equipment Order
+parent: Purchasing
+nav_order: 1
+---
+
 # Patient Equipment Order
 
 End-to-end flow from patient inquiry through insurance verification, order creation, and fulfillment.

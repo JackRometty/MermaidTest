@@ -1,3 +1,9 @@
+---
+title: Insurance Verification
+parent: Insurance
+nav_order: 1
+---
+
 # Insurance Verification
 
 Verifies patient insurance coverage via API, with manual fallback for timeouts or errors.
