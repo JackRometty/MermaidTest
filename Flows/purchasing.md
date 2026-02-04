@@ -2,6 +2,7 @@
 title: Purchasing
 nav_order: 3
 has_children: true
+nav_fold: false
 ---
 
 # Purchasing
