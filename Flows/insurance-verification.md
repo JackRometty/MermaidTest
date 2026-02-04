@@ -1,6 +1,5 @@
 ---
 title: Insurance Verification
-parent: Insurance
 nav_order: 1
 ---
 

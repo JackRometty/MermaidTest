@@ -1,6 +1,5 @@
 ---
 title: Coverage Appeal
-parent: Insurance
 nav_order: 2
 ---
 
